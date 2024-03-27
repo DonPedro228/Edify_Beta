@@ -1,0 +1,384 @@
+
+/* HEADER */
+html {
+    box-sizing: border-box;
+
+    -moz-tab-size: 4;
+    /*-o-tab-size: 4; */
+    tab-size: 4;
+
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+/* * {
+    box-sizing: inherit;
+} */
+
+body {
+    padding: 0;
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 100vh;
+    /* background: #8e2de2 */
+}
+
+
+ul {
+    color: #F2F2F2;
+    /* margin: 0;
+    padding: 0; */
+}
+
+li {
+
+    display: inline-block;
+}
+
+.header {
+    /*     padding: 3px;
+        background-color: #F2F2F2;
+        color: white; */
+    /* --bs-gutter-x: 1.5rem; */
+    /* --bs-gutter-y: 0; */
+    width: 100%;
+
+    display: flex;
+}
+
+.container-fluid {
+    text-align: center;
+    margin: 0 auto;
+}
+.header__inf_title {
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__inf_title-lf {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    left: -0px;
+    background: #0E0E0E;
+}
+.header__inf_title-lf a img {
+    width: 120px; /* change */
+    height: auto;
+    /* margin-right: 20px; */
+    margin-right: 55px;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+    top:  0  ;
+    left: 10px; /* change */
+}
+
+
+.form-control {
+    margin-left: 10px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu__item1 a {
+    width: 60px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.menu__item2 {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu__item2 a {
+    position: relative;
+    width: 126px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2;
+}
+
+.menu__item2 a:hover {
+    text-decoration: underline;
+}
+
+.menu__item3 {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu__item3 a {
+    position: relative;
+    width: 84px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2; /* Задайте кольор тексту, якщо вам потрібно */
+    text-decoration: none;
+}
+
+.menu__item3 a:hover {
+    text-decoration: underline;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu__item a:hover {
+    text-decoration: underline;
+}
+
+.header__inf_title-rg {
+    margin-right: 15px ;
+}
+
+.header__inf_title-rg img {
+    margin-right: 10px;
+}
+
+.person-circle-icon {
+    background:#7400B8;
+    border-radius: 18px;
+}
+
+/* HEADER */
+
+
+/* COL-MD-4 */
+/* LEFT */
+.col-md-4 {
+
+    flex-direction: column;
+
+}
+.dash {
+    background-color: #7400B8;
+    width: 235px;
+    height: 58px;
+    top: 101px;
+    left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dash span{
+
+    width: 97px;
+    height: 22px;
+    top: 119px;
+    left: 62px;
+    color: #FFFFFF;
+    align-items: center;
+
+}
+.dash_menu {
+    color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    display: block;
+    margin-bottom: 30px;
+    flex: 1;
+    padding: 20px; /* відредагуйте відступи за необхідністю */
+    text-align: center;
+    background: #0d1717;
+    width: 236px;
+    height: 520px;
+    top: 101px;
+    left: 19px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.menu_ds {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.risk-block {
+    width: 180px; /* ширина блоку */
+    height: 30px; /* висота блоку */
+    border: 1px solid #000; /* рамка блоку */
+    margin: 10px; /* відступи блоку */
+    padding: 10px; /* внутрішні відступи блоку */
+}
+.risk {
+    width: 235px;
+    height: 1px;
+    top: 389px;
+    left: 19px;
+    color:#F2F2F2;
+
+}
+.menu_item {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.menu_item a{
+    color: #F2F2F2;
+    opacity: 0.7;
+    padding-bottom: 1px;
+    /* border-bottom: 3px solid transparent; */
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.menu_item:hover a{
+    opacity: 1;
+    border-bottom: 3px solid #F2F2F2;
+}
+/* COL-MD-4 */
+/* LEFT */
+
+
+/* COL-MD-6 */
+/* MAIN */
+
+.col-md-6 {
+    width: auto;
+}
+
+.col-md-7 h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+
+}
+main {
+    float:left;
+    width:100%;
+    padding:0 20px;
+}
+main h2 {
+    display: inline-block;
+    width: 50%;
+
+    /* margin-right: px; */
+}
+main h6 {
+    color: #7400B8; /* Задає колір тексту */
+    text-align: right; /* Вирівнює текст по правому краю */
+    margin-top: 5px; /* Задає відступ зверху */
+    margin-left: 25%;
+    width:auto;
+    display: inline;
+}
+
+
+.block {
+    width: 260px;
+    height: 36px;
+    /* top: 100px; */
+    /* left: 1400px; */
+    /* margin-left: 10px; */
+    border-radius: 10px;
+    background: #7400B8;
+    text-align: center;
+    color:#f1f1f1;
+}
+
+
+.content-block1 {
+    position: relative;
+    width: 30%; /* ширина блоку, можна вказати будь-яке значення */
+    margin: 0 10px; /* центрування блоку по горизонталі */
+    padding: 100px;
+    color:#f1f1f1;
+    background-color: #0d1717;
+    border-radius: 15px;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.r-risk {
+    position: absolute;
+    width: 22px;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    border-radius: 15px 0 0 15px;
+    background-color: #7400B8;
+
+}
+
+/* COL-MD-6 */
+/* MAIN */
+
+
+
+/* COL-MD-3 */
+/* ASIDE */
+
+
+aside{
+    text-align: center;
+}
+
+/* aside h6{
+    margin-top: 5%;
+} */
+
+.content-block {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+    color: #f1f1f1;
+    background-color: #0d1717;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.b-risk {
+    position: absolute;
+    width: 100%;
+    height: 22px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px 15px 0 0;
+    background: #7400B8;
+}
